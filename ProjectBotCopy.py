@@ -9,5 +9,6 @@ age_difference = age - bot_age   #The age difference number that will be printed
 print(f"You are {age_difference} years older than me. I am only {bot_age} years old!")
 
 color = input("What is your favorite color? ")  #Color variable defined and its print statements
-print("What is your favorite color? ")
 print(f"Oh, {color} is a beautiful color!") 
+
+#Add more questions here? 
