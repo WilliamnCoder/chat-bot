@@ -19,7 +19,8 @@ while review != "Yes" and review != "No":
 if review == "Yes":
     print ("Thank you, we will improve it even more. ")
 elif review == "No":
-    print("Thank you, how can we improve it even more?")
+    feedback = input("Thank you, how can we improve it even more?")  #Created a feeback variable if user says no to explain why it was not helpful
+    print("Thank you for your feedback!")
 else:
     print("Invalid answer. Please type 'Yes' or 'No' ")
 
@@ -34,7 +35,7 @@ while True:   # The program is running until the user have entered 1-5
         print(f"Thank you for a {answering_review}, that is a decent rating!")
         break
     elif answering_review == "4":
-        print(f"Wow! Really, a {answering_review}? Almost full rating. ")
+        print(f"Wow! Really, a {answering_review}? Almost full rating! ")
         break
     elif answering_review == "5":
         print(f"Amazing! {answering_review} out of {answering_review}! ")
